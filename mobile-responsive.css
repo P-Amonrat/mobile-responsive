@@ -1,0 +1,14 @@
+@media (min-width: 992px){
+    .mobileOnly{
+        display: none;
+    }
+}
+@media (min-width:576px){
+    .mobileOnly{
+        color: red;
+    }
+}
+.mobileOnly{
+    right: 0%;
+    left: 100%;
+}
